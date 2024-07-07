@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+<link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/slide-show.css">
+<title>My College</title>
+<style type="text/css">
+body {
+	font: 14px/2 'Roboto', sans-serif;
+	letter-spacing: 0.05em;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+p {
+	color: #8c97aa;
+	line-height: 28px;
+}
+.lead {
+	line-height: 34px;
+}
+.navbar-brand img {
+	height: 34px;
+	width: auto;
+}
+a {
+	color: #28b2f9;
+	transition: all 0.3s ease;
+}
+a:hover {
+	color: #222;
+	text-decoration: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem;
+	color:#fff;
+}
+.btn {
+	border-radius: 0;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	padding: 13px 30px;
+	text-transform: uppercase;
+}
+.btn-lg {
+	padding: 18px 34px;
+}
+.btn-primary {
+	background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+	border-color: #28b2f9;
+}
+.weight-500 {
+	font-weight: 500;
+}
+.social-icons a {
+	margin-right: 15px;
+	color: #999;
+	border: 1px solid rgba(255,255,255,0.5);
+	padding: 19px 20px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.social-icons a:hover {
+	color: #28b2f9;
+}
+.social-icons {
+	padding-top: 32px;
+}
+ul.kk {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 15px;
+}
+ul.kk li {
+	padding-top: 10px;
+}
+ul.kk li a {
+	color: #fff;
+	font-weight: bold;
+}
+.footer-bg h6 {
+	color: #fff;
+}
+.hh {
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(5,98,186,0.5) 0%, rgba(5,98,186,0) 100%);
+	z-index: 9;
+}
+.section-bg-one {
+	background-image: url(img/image-two.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.section-bg-two {
+	background-image: url(img/blue-snow.png);
+	background-repeat: repeat;
+}
+.section-bg-three {
+	background-image: url(img/image-three.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.nn img {
+	width: 100px !important;
+	height: 100px !important;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.text-top {
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+}
+.img-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.pp {
+	background: url(img/papyrus.png) repeat;
+}
+.footer-bg {
+	background-color: #363535;
+}
+.small, small {
+	font-size: 90%;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+h1.slide-title{
+margin-top: 0;
+margin-bottom: 20px;
+font-size: 3vw;
+font-weight: bold;
+color:#fff;
+}
+p.slide-subtitle{
+font-size: 1vw;
+font-weight: 100;
+margin-top: 0; color:#fff;
+}
+.bb{
+margin-top:50px;
+margin-bottom:50px;
+}
+.gg img{
+transition:all 0.3s ease;
+cursor:pointer;
+}
+.gg img:hover{
+transform: scale(1.1);
+opacity:0.8;
+}
+@media(max-width:700px){
+.section-bg-one{
+background:none;
+}
+}
+@media(max-width:998px){
+.navbar-collapse{
+background: linear-gradient(180deg, rgba(5,98,186,0.9) 0%, rgba(5,98,186,0.9) 100%);
+padding:30px;
+}
+}
+@media(max-width:1200px){
+h1.slide-title{
+font-size:38px !important;
+}
+p.slide-subtitle{
+font-size:20px !important;
+}
+.section-bg-one{
+background-position:right 0 top -20px !important;
+}
+.bb{
+margin-top:10px;
+margin-bottom:10px;
+}
+}
+</style>
+</head>
+<body>
+<div class="position-relative hh">
+  <div class="container-fluid">
+    <div class="row py-1 px-5">
+      <div class="col-12 d-none d-md-block">
+        <div class="d-flex py-2 justify-content-end mx-4 align-items-center">
+          <div class="mr-5 d-flex align-items-center weight-500 text-white"> <i class="lni lni-phone mr-3"></i> +99999 XXX XX </div>
+          <div class="weight-500"> <i class="lni lni-envelope mr-3 text-white"></i> <a href="mailto:schoolname@gmail.com" class="text-white">mail@mycollege.com</a> </div>
+        </div>
+      </div>
+      <div class="col-12 pb-5 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark"> <a class="navbar-brand mr-lg-5" href="#"><img src="img/aven.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-md-5 py-4 py-lg-0 lead">
+              <li class="nav-item active"> <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#">Learning</a> </li>
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Admissions </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">2024 Admissions</a> <a class="dropdown-item" href="#">2023 Batch</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Alumni</a> </div>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="#">Contact </a> </li>
+            </ul>
+            <a href="" class="btn btn-primary shadow-sm rounded-pill">Contact Us</a> </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container2">
+  <div data-am-fadeshow="next-prev-navigation">
+
+    <!-- Radio -->
+    <input type="radio" name="css-fadeshow" id="slide-1" />
+    <input type="radio" name="css-fadeshow" id="slide-2" />
+    <input type="radio" name="css-fadeshow" id="slide-3" />
+
+    <!-- Slides -->
+    <div class="fs-slides">
+      <div class="fs-slide" style="background-image: url(img/banner-one.jpg);">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+          <h1 class="slide-title">Best Engineering College of the Year </h1>
+          <p class="slide-subtitle">100+ Awards</p>
+        </div>
+      </div>
+      <div class="fs-slide" style="background-image: url(img/banner-two.jpg);">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+          <h1 class="slide-title"> Our children continue to build on their skills learnt in the Early Years</h1>
+          <p class="slide-subtitle"> In Year 1, the Inspire Mathematics scheme is continued from Reception.</p>
+        </div>
+      </div>
+      <div class="fs-slide" style="background-image: url(img/banner-three.jpg);">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-family: sans-serif; text-align: center; text-shadow: 0 0 20px rgba(0,0,0,0.5);">
+          <h1 class="slide-title"> Prepare for life in one of the world's greatest cities </h1>
+          <p class="slide-subtitle"> London is a bustling, energetic and cosmopolitan city that offers a wealth of cultural, social and educational opportunities.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Navigation -->
+    <div class="fs-quick-nav">
+      <label class="fs-quick-btn" for="slide-1"></label>
+      <label class="fs-quick-btn" for="slide-2"></label>
+      <label class="fs-quick-btn" for="slide-3"></label>
+    </div>
+
+    <!-- Prev Navigation -->
+    <div class="fs-prev-nav">
+      <label class="fs-prev-btn" for="slide-1"></label>
+      <label class="fs-prev-btn" for="slide-2"></label>
+      <label class="fs-prev-btn" for="slide-3"></label>
+    </div>
+
+    <!-- Next Navigation -->
+    <div class="fs-next-nav">
+      <label class="fs-next-btn" for="slide-1"></label>
+      <label class="fs-next-btn" for="slide-2"></label>
+      <label class="fs-next-btn" for="slide-3"></label>
+    </div>
+  </div>
+</div>
+<div style="height:75vh; margin-bottom:-10px;"></div>
+<div class="section-bg-one">
+  <div class="container py-5">
+    <div class="row py-5 bb align-items-center">
+      <div class="col-md-6 col-12">
+        <h2 class="font-weight-bold mb-4">Apply now, start at interhigh this september</h2>
+        <p class="lead mb-5">A very warm welcome to Our School. We are a  Co-Educational Independent Day School. We value the uniqueness of each individual and therefore we also welcome children of all faiths and cultures. </p>
+        <a href="" class="btn btn-primary rounded-pill">Apply Now !</a> </div>
+      <div class="col-md-6 col-12 mt-5 mt-md-0"> <img src="img/image-one.jpg" class="img-fluid"> </div>
+    </div>
+  </div>
+</div>
+<div class="bg-light section-bg-two pt-5">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="mb-2">Discover More</h2>
+        <p class="lead mb-5">Find out about life at Our School, inside and outside the classroom.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/2.jpg" class="img-fluid mb-4">
+        <h5><a href="#">Admissions</a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/3.jpg" class="img-fluid mb-4">
+        <h5><a href="#">Academic Life</a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/5.jpg" class="img-fluid mb-4">
+        <h5><a href="#">School Life</a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/6.jpg" class="img-fluid mb-4">
+        <h5><a href="#">Co-Curriculum</a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/1.jpg" class="img-fluid mb-4">
+        <h5><a href="#">Partnerships</a></h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-5 gg"> <img src="img/4.jpg" class="img-fluid mb-4">
+        <h5><a href="#">Archives & Collections</a></h5>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section-bg-three">
+  <div class="container py-5">
+    <div class="row py-5 align-items-center">
+      <div class="col-lg-6">
+        <h2>Latest News</h2>
+      </div>
+      <div class="col-lg-6 text-right"> <a href="" class="lead text-white">View all News &rarr;</a> </div>
+    </div>
+    <div class="row pb-5 news-slider owl-carousel owl-theme">
+      <div> <img src="img/7.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>15 Feb</h5>
+          <p class="lead text-white m-0">Our School is now offering short, certificate courses.</p>
+        </div>
+      </div>
+      <div> <img src="img/8.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>5 Feb</h5>
+          <p class="lead text-white m-0">Consequences of the pandemic for countries.</p>
+        </div>
+      </div>
+      <div> <img src="img/9.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>2 Feb</h5>
+          <p class="lead text-white m-0">Our School plans for the next academic year.</p>
+        </div>
+      </div>
+      <div> <img src="img/7.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>15 Feb</h5>
+          <p class="lead text-white m-0">Our School is now offering short, certificate courses.</p>
+        </div>
+      </div>
+      <div> <img src="img/8.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>5 Feb</h5>
+          <p class="lead text-white m-0">Consequences of the pandemic for countries.</p>
+        </div>
+      </div>
+      <div> <img src="img/9.jpg" class="img-fluid">
+        <div class="img-overlay"></div>
+        <div class="text-top">
+          <h5>2 Feb</h5>
+          <p class="lead text-white m-0">Our School plans for the next academic year.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-light pp">
+  <div class="container py-5">
+    <div class="row pt-5">
+      <div class="col-12 text-center">
+        <h2 class="mb-5">Parents Love Us</h2>
+      </div>
+    </div>
+    <div class="row testi-slider owl-carousel owl-theme pb-5">
+      <div class="col-8 mx-auto to text-center nn"> <img src="img/10.jpg" class="mb-5">
+        <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur non orci tincidunt venenatis. Phasellus ipsum erat, lacinia sed erat condimentum, finibus euismod magna. </p>
+        <h5>Darren Lepke</h5>
+        <p class="small font-weight-bold">Student Parent</p>
+      </div>
+      <div class="col-8 mx-auto to text-center nn"> <img src="img/11.jpg" class="mb-5">
+        <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur non orci tincidunt venenatis. Phasellus ipsum erat, lacinia sed erat condimentum, finibus euismod magna. </p>
+        <h5>Darren Lepke</h5>
+        <p class="small font-weight-bold">Student Parent</p>
+      </div>
+      <div class="col-8 mx-auto to text-center nn"> <img src="img/12.jpg" class="mb-5">
+        <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur non orci tincidunt venenatis. Phasellus ipsum erat, lacinia sed erat condimentum, finibus euismod magna. </p>
+        <h5>Darren Lepke</h5>
+        <p class="small font-weight-bold">Student Parent</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer-bg">
+  <div class="container py-5">
+    <div class="row py-5">
+      <div class="col-lg-4 col-md-12 text-center text-lg-left"> <img src="img/footer-logo.png" class="mb-5 pb-0 pb-lg-5  img-fluid">
+        <p class="text-white weight-500 pb-5 pb-lg-0">GEORGETOWN, TEXAS  |  455.789.3478</p>
+      </div>
+      <div class="col-lg-8 col-md-12">
+        <div class="row text-white">
+          <div class="col-sm-6 col-12">
+            <h6 class="mb-4 text-white-50 small">SEE YOURSELF</h6>
+            <a href="#" class="btn btn-warning btn-lg"> Request Info </a> </div>
+          <div class="col-sm-6 col-12">
+            <h6 class="text-white-50 small pt-5 pt-sm-0">FOLLOW US</h6>
+            <div class="social-icons"> <a href="#"><i class="lni lni-facebook-filled"></i></a> <a href="#"><i class="lni lni-twitter-filled"></i></a> <a href="#"><i class="lni lni-instagram-filled"></i></a> </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-4">
+          <div class="col-sm-4 col-12">
+            <h6 class="text-white-50 small">HELPFUL LINKS</h6>
+            <ul class="kk">
+              <li><a href="">Directory</a></li>
+              <li><a href="">Editor Login</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-12">
+            <h6 class="text-white-50 small pt-5 pt-sm-0">CONTACT US</h6>
+            <ul class="kk">
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Work With Us</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-12">
+            <h6 class="text-white-50 small pt-5 pt-sm-0">POLICY</h6>
+            <ul class="kk">
+              <li><a href="">Report</a></li>
+              <li><a href="">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script>
+$('.news-slider').owlCarousel({
+    loop:false,
+    margin:20,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+		 500:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('.testi-slider').owlCarousel({
+    loop:false,
+    margin:1,
+    nav:false,
+    dots:false,
+    responsive:{
+        100:{
+            items:1
+        }
+    }
+})
+</script>
+</body>
+</html>
