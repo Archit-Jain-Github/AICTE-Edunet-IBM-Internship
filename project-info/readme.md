@@ -64,50 +64,50 @@
 
 **Publishing the Chatbot:**
 
-    - Once I was satisfied with the chatbot’s performance, I navigated to the "Publish" section.
-    - I clicked on the "Publish" button to make my chatbot live.
+   - Once I was satisfied with the chatbot’s performance, I navigated to the "Publish" section.
+   - I clicked on the "Publish" button to make my chatbot live.
 
 #### Step 4: Integrating with Twilio for WhatsApp
 
 **Setting Up Twilio Integration in IBM Cloud:**
 
-    - In the Watson Assistant panel, I went to "Environments."
-    - I clicked on "Browse Catalog" and searched for "WhatsApp with Twilio."
-    - I selected the appropriate integration service and clicked "Create."
+   - In the Watson Assistant panel, I went to "Environments."
+   - I clicked on "Browse Catalog" and searched for "WhatsApp with Twilio."
+   - I selected the appropriate integration service and clicked "Create."
 
 **Signing Up to Twilio:**
 
-    - I opened a new browser tab and went to the Twilio website.
-    - I clicked on "Sign Up" and followed the on-screen prompts to create a new Twilio account.
-    - After verifying my email address, I completed the registration process.
-    - I saved my Twilio Account SID and Auth Token for later use.
+   - I opened a new browser tab and went to the Twilio website.
+   - I clicked on "Sign Up" and followed the on-screen prompts to create a new Twilio account.
+   - After verifying my email address, I completed the registration process.
+   - I saved my Twilio Account SID and Auth Token for later use.
 
 **Configuring Twilio in IBM Cloud:**
 
-    - I returned to the IBM Cloud tab.
-    - I followed the on-screen prompts to enter my Twilio Account SID and Auth Token.
-    - I saved the webhook URL provided by IBM Cloud.
+   - I returned to the IBM Cloud tab.
+   - I followed the on-screen prompts to enter my Twilio Account SID and Auth Token.
+   - I saved the webhook URL provided by IBM Cloud.
 
 **Setting Up WhatsApp in Twilio:**
 
-    - I went back to the Twilio tab.
-    - From the left-hand panel, I navigated to "Messaging."
-    - I selected "Try it out" under WhatsApp to send a test message.
-    - I scanned the QR code provided to link WhatsApp with Twilio.
+   - I went back to the Twilio tab.
+   - From the left-hand panel, I navigated to "Messaging."
+   - I selected "Try it out" under WhatsApp to send a test message.
+   - I scanned the QR code provided to link WhatsApp with Twilio.
 
 **Configuring Webhook in Twilio:**
 
-    - I went to "Sandbox Settings" in Twilio.
-    - In the "When a message comes in" field, I replaced the existing URL with the webhook URL copied from IBM Cloud.
-    - I saved the changes.
+   - I went to "Sandbox Settings" in Twilio.
+   - In the "When a message comes in" field, I replaced the existing URL with the webhook URL copied from IBM Cloud.
+   - I saved the changes.
 
 #### Step 5: Final Testing and Launch
 
 **Testing the WhatsApp Chatbot:**
 
-    - I sent a test message to my WhatsApp number to ensure the chatbot responded correctly.
-    - I tested various queries related to the different intents defined in Watson Assistant to ensure comprehensive functionality.
-    - I officially launched the chatbot for use.
+   - I sent a test message to my WhatsApp number to ensure the chatbot responded correctly.
+   - I tested various queries related to the different intents defined in Watson Assistant to ensure comprehensive functionality.
+   - I officially launched the chatbot for use.
 
 ---
 
